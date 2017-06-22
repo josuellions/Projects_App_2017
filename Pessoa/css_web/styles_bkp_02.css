@@ -1,0 +1,212 @@
+/*Sumario CSS_Styles 
+1 - Geral
+2 - Headers
+3 - Menus
+4 - Textos e Titulos
+5 - Color e backgrounds
+6 - Card
+7 - Listbox
+*/
+
+/*#E6F3FF" "#EBF5FE"  #A7D6D5   0066FF #66CCFF*/
+/* 1 - Geral */
+
+/*definindo fundo pagina */
+html {
+	background-color: rgba(2, 48, 119, 0.34);
+}
+
+/*Alinhamento do nome empresa*/
+ body > header > div p {
+ 	position: absolute;
+ 	margin-left: 95px;
+ 	top: 25px;
+	color: #CCC;
+}
+
+/*definindo fonte da pagina */
+body {
+	font-family: sans-serif;
+}
+
+/*definindo bordar superio menu */
+body {
+	margin: 0px	;
+}
+
+/*definindo cor fundo borda superior da pagina */
+header {
+	background-color: rgba(2, 48, 119, 0.64);
+	height: 65px;
+	width: 100%;
+}
+
+/*definindo stilo do menu */
+ul a {
+	text-decoration: none;
+	display: block;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+/*definindo alinhamento a esqueda criar menu */
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+/*definindo transparencia do menu */
+nav > ul a {
+	color: #FFF;
+}
+
+/*define alinhamento do menu superior */
+nav li {
+	top: -12px;
+	margin-right: 1px;
+	position: relative;
+}
+
+/*definindo retratil do menu */
+nav > ul ul {
+	top: 25;
+	left: -90px;
+}
+
+nav > ul > li {
+	display: inline-block;
+}
+
+/*definindo fundo do menu */
+nav ul li ul {
+	background-color: grey;
+}
+
+/*definindo sobreamento ao passar mouse */
+ul a:hover {
+	background-color: rgba(0,0,0,0.5);
+}
+
+/*definindo bloco para agrupar menu */
+nav > ul > li {
+	display: inline-block;
+}
+
+/*definindo alinhamento superior menu */
+nav {
+	float: right;
+}	
+
+/*definindo ocultamento do menu */
+nav > ul ul {
+	position: absolute;
+	display: none;
+}
+
+/*definindo largura do menu */
+ul a {
+	padding: .7rem .9rem;
+}
+
+/*definindo efeito deslizar do menu */
+nav li:hover > ul {
+	display: block;
+}
+
+/*definindo alinhamento list a esquerda */
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+/*definindo tamanho do alinhamento list a esquerda */
+body > ul {
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 2%;	
+	height: left;
+	width: 20%;
+	float: 37%;
+}
+
+/*definindo fonte do titulo h1 */
+h1 {
+	font-family: sans-serif;
+	font-weight: normal;	
+	font-size: 27px;
+	color: #118593;
+	padding-left: 40%;
+}
+
+form {
+	margin-left: 30%;
+}
+
+/*Agrupando label */
+label input, label textarea {
+	display: block;
+}
+
+/*Definindo tamanho da textarea */
+label > textarea{
+	padding-right: 25%;
+	padding-bottom: 40%;
+	background: #e6f2ff;
+}
+
+/*definindo Botões */
+.botao_01 {
+  /*   background: -webkit-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -moz-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -o-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -ms-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     border: 1px solid #CCCCCE;
+     border-radius: 3px;
+     box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+                   0 2px 7px rgba(0, 0, 0, 0.2);
+
+	display: block;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 35px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 0 #FFF;
+	padding: relative;
+	width: 100px; 
+	padding: 5px;
+	white-space: nowrap;
+	
+
+	/*position: absolute;*/
+	margin-top: 35px;
+	margin-left: 60%;	
+	height: left;
+	width: 100px;
+	float: 25px;
+
+	line-height: 50px;
+
+	top: -575px;
+	/*margin-right: 10px;*/
+	position: relative;
+
+	background-color: #FFF;
+	background-size: 92px auto;
+	border-radius: 50%;
+	
+
+	
+}
+/*
+section div button {
+	line-height: 10px;
+		width: 10px; 
+	line-height: 30px;
+	 border: 1px solid #CCCCCE;
+     border-radius: 10px;
+     box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+                   0 2px 7px rgba(0, 0, 0, 0.2);
+}

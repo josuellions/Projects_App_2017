@@ -1,0 +1,171 @@
+@media screen and (min-width: 780px) {
+
+/*Sumario CSS_Styles 
+1 - Geral
+2 - Headers
+3 - Menus
+4 - Textos e Titulos
+5 - Color e backgrounds
+6 - Card
+7 - Listbox
+*/
+
+/*#E6F3FF" "#EBF5FE"  #A7D6D5   0066FF #66CCFF*/
+/* 1 - Geral */
+
+
+	.fundo {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b7ea+0,009ec3+100;Blue+3D+%2315 */
+	/*background: rgb(0,183,234); /* Old browsers */*/
+	/*background: -moz-linear-gradient(-45deg, rgba(0,183,234,1) 0%, rgba(0,158,195,1) 100%); /* FF3.6-15 */*/
+	/*background: -webkit-linear-gradient(-45deg, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* Chrome10-25,Safari5.1-6 */*/
+	/*background: linear-gradient(135deg, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */*/
+	}
+	*{
+		box-sizing: border-box;
+	}
+	.nomeEmpresa{
+		margin-left: 3.2em;
+		margin-top: -1.1em; 
+		color: rgb(255, 255, 255);
+	}
+
+	.alinharForm {
+		margin-left: -40em;
+	}
+
+	.alinharTable {
+		margin-left:  49em;
+	}
+
+	.alinharButton {
+		margin-left:  0.9em;
+	}
+
+	.table_01 {
+		color: blue;
+           		font-weight:bold;
+		font-size: 1em;
+	}
+
+	@-moz-document url-prefix() {
+		  fieldset { display: table-cell; }
+	}
+
+	html {
+		/*background-color: rgba(2, 48, 119, 0.34);*/
+	}
+
+
+	/*definindo fonte da pagina */
+	body {
+		font-family: sans-serif;
+	}
+
+	/*definindo bordar superio menu */
+	body {
+		margin: 0px;
+	}
+
+	/*definindo cor fundo borda superior da pagina */
+	header {
+		background-color: rgba(2, 48, 119, 0.64);
+		height: 3em;
+		width: 100%;
+	}
+
+	/*definindo fonte do titulo h1 */
+	h2 {
+		font-family: sans-serif;
+		font-weight: normal;	
+		font-weight: bold;
+		font-size: 3em;
+		color: #118593;
+		margin-left: -15.1em;
+
+	}
+
+	form {
+		margin-left: 1em;
+	}
+
+
+
+
+}
+
+@media screen and (max-width: 780px){
+
+	@-moz-document url-prefix() {
+		  fieldset { display: table-cell; }
+	}
+	
+	.fundo {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b7ea+0,009ec3+100;Blue+3D+%2315 */
+	/*background: rgb(0,183,234); /* Old browsers */*/
+	/*background: -moz-linear-gradient(-45deg, rgba(0,183,234,1) 0%, rgba(0,158,195,1) 100%); /* FF3.6-15 */*/
+	/*background: -webkit-linear-gradient(-45deg, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* Chrome10-25,Safari5.1-6 */*/
+	/*background: linear-gradient(135deg, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */*/
+	}
+	*{
+		box-sizing: border-box;
+	}
+	.nomeEmpresa{
+		margin-left: 3.2em;
+		margin-top: -1.4em; 
+		color: rgb(255, 255, 255);
+	}
+
+	.alinharButton {
+		margin-left:  0.9em;
+	}
+
+	.table_01 {
+		color: blue;
+           		font-weight:bold;
+		font-size: 1em;
+	}
+
+	html {
+		/*background-color: rgba(2, 48, 119, 0.34);*/
+	}
+
+
+	/*definindo fonte da pagina */
+	body {
+		font-family: sans-serif;
+	}
+
+	/*definindo bordar superio menu */
+	body {
+		margin: 0px;
+	}
+
+	/*definindo cor fundo borda superior da pagina */
+	header {
+		background-color: rgba(2, 48, 119, 0.64);
+		height: 3em;
+		width: 100%;
+	}
+
+	
+
+	/*definindo fonte do titulo h1 */
+	h2 {
+		font-family: sans-serif;
+		font-weight: normal;	
+		font-weight: bold;
+		font-size: 2em;
+		color: #118593;
+		padding-left: 0.2em;
+
+	}
+
+	form {
+		margin-left: 1em;
+	}
+
+
+}

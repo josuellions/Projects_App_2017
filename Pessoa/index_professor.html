@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Sistema de cadastro de pessoas</title>
+
+    <!-- Bootstrap -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+      </div>
+
+      <button type="submit" id="enviar" class="btn btn-default">Enviar</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Alertas</h4>
+      </div>
+      <div class="modal-body">
+        <p id="avisos"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/Pessoa.js"></script>
+    <script>
+      (function($) {
+        $("#enviar").click(function(){
+           var nome = $("#nome").val();
+           if(typeof nome == "string" && nome != "") {
+             Pessoa.atribuirNome(nome);
+             var nome = Pessoa.ObterNome();
+             var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "http://localhost:4000/inserir/pessoa",
+  "method": "POST",
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded",
+    "cache-control": "no-cache",
+    "postman-token": "4e11bc8c-b006-da73-056e-795841535370"
+  },
+  "data": {
+    "nome": nome
+  }
+}
+
+$.ajax(settings).done(function (response) {
+  $("#avisos").css('color','green')
+  .css('font-weight', 'bold')
+  .css('font-size', '1.8em')
+  .html('<i class="glyphicon glyphicon-ok" />  A pessoa ' + nome + ' Foi inserida com sucesso');
+  $('#myModal').modal('toggle');
+});
+
+             console.log(Pessoa);
+           } else {
+             $("#avisos").css('color','red')
+             .css('font-weight', 'bold')
+             .css('font-size', '1.8em')
+             .html('<i class="glyphicon glyphicon-remove" />  O nome da pessoa e obrigatorio');
+             $('#myModal').modal('toggle');
+           }
+        });
+      })(jQuery);
+    </script>
+  </body>
+</html>

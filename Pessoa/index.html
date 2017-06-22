@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Sistema de cadastro de Pessoas</title>
+
+    <!-- Bootstrap -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+  <section data-role="page">
+      <header  data-role="header" data-position="fixed">
+      <div class="barraSuperior" >
+      <div class="form-group">
+      <a href="/">
+        <img src='img/logo_seven.png' title="Logo"  class="icon" >
+      </a>
+      <!-- Nome da empresa -->
+        <div>
+                <p   class="nomeEmpresa" title="Nome enpresa">&copy Seven Solutions Tecnologic</p>
+        </div>
+    </div>
+    </div>
+    </header>
+  
+      <div data-position="fixed">
+          <div class="container"  class="col-md-12" >
+      <div  class="col-sm-12">
+            <h1>Cadastro de Pessoas</h1>
+      </div>
+        <div class="alinharForm">
+              <div class="col-sm-4">
+                    <div class="form-group">
+                          <label for="nome">Nome</label>
+                          <input type="text" class="form-control"  id="nome" placeholder="Digite seu nome" onkeypress="return validaNome(event)">
+                    </div>
+                    <div class="defButton">
+                    <div class="col-sm-1 col-xs-6 " >
+                          <button  type="submit" id= "enviar" class="btn btn-primary btn-lg btn-block">Inserir</button>
+                          </div>
+                          <div class="col-sm-1 col-xs-6 ">
+                          <button  type="submit" id= "alterar" class="btn btn-primary btn-lg btn-block">Alterar</button>
+                          </div>
+                          <div class="col-sm-1 col-xs-6" >
+                          <button  type="submit" id= "excluir" class="btn btn-primary btn-lg btn-block">Excluir</button>
+                          </div>
+                          <div class="col-sm-1 col-xs-6 ">
+                          <button  type="submit" id= "listar" class="btn btn-primary btn-lg btn-block">Listar</button>
+                    </div>
+                    </div>
+              </div>      
+      </div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Alerta</h4>
+          </div>
+          <div class="modal-body">
+            <p id="avisos"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<br />
+
+<div class="alinharTable">
+      <div class="col-xs-12 col-md-4">
+            <div class="table-responsive">
+                  <table class="table table-striped"  id="table" >
+                        <tr>
+                              <th class="text-left">ID</th>
+                              <th class="text-left">Nome</th>
+                        </tr>
+                    </table>
+                    <div class="table_01">
+                           <table class="table table-striped"  id="table_01" >
+                                <tbody>
+                                </tbody>
+                          </table>
+                    </div>
+              </div>
+      </div>
+</div>
+</div>
+<footer  data-role="footer" data-position="fixed">
+ <div class="barraInferior" >
+  <div class="form-group" >
+  <div >
+      <a href="https://pt.wikipedia.org/wiki/Linux">
+        <img src='img/logo_linux.png' title="Logo"  class="icon_rodape" >
+      </a>
+      <!-- Nome da empresa -->
+        <div>
+                <p   class="nomeAutor" title="Desenvolvedor">Autor: Josuel A. Lopes&copy</p>
+        </div>
+    </div>
+    </div>
+    </div>
+</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="lib/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css">
+    
+    <script src= "js/libs/jquery.mobile-1.4.5.min.js"></script>
+    
+    <script src="js/libs/jquery.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="css/styles_icon.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles_img.css">
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="js/pessoa.js"></script>
+    <script src="js/listar.js"></script>
+    <script src="js/construct.js"></script>
+    <script src="js/construct_list.js"></script>
+    <script src="js/validarnome.js" type="text/javascript"></script>
+
+  </body>
+</html>
