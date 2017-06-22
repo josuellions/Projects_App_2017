@@ -7,7 +7,7 @@
                               var settings = {
                                 "async": true,
                                 "crossDomain": true,
-                                "url": "http://21.21.21.5:3000/inserir/pessoa",
+                                "url": "http://54.233.161.953000/inserir/pessoa",
                                 "method": "POST",
                                       "headers": {
                                         "content-type": "application/x-www-form-urlencoded",
