@@ -1,7 +1,7 @@
 <?xml	version="1.2"	encoding="UTF-8"?>
 <widgets 	xmlns="http://www.w3.org/ns/widgets"
 	 	xmlns:gap="http://phonegap.com/ns/1.2"
-		id="org.sergiolopes.cadastropessoasapp"
+		id="cadastropessoasapp"
 		version="1.0.2">
 <name>
 		Cadastro de Pessoas
@@ -14,12 +14,12 @@
 		Josuel A. Lopes - Seven Soluctions Tecnologic
 </author>
 
-   <preference name="permissions" value="none" />
+   <!--<preference name="permissions" value="none" />
     <preference name="orientation" value="portrait" />
     <preference name="fullscreen" value="true" />
 
     <preference name="android-minSdkVersion" value="16" />
-    <platform name="android" />
+    <platform name="android" />-->
 
 <icon src="img/logo_seven.png" />
 <plugin name="cordova-plugin-splashscreen" />
