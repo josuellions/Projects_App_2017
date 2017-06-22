@@ -18,13 +18,13 @@
     <preference name="orientation" value="portrait" />
     <preference name="fullscreen" value="true" />
 
-<!--    <preference name="android-minSdkVersion" value="16" />
+    <preference name="android-minSdkVersion" value="16" />
     <platform name="android" />
-
+<!--
 <config-file platform="android" parent="/manifest" mode="delete">
         <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-</config-file>-->
-
+</config-file>
+-->
 
 <icon src="img/logo_seven_base.png" />
 <plugin name="cordova-plugin-splashscreen" />

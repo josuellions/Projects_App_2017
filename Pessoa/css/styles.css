@@ -141,6 +141,7 @@
 		font-size: 1rem;
 	}
 
+	/*definindo cor fundo borda superior da pagina */
 	.barraSuperior {
 		background-color: rgba(2, 48, 119, 0.64);
 		margin-top: -1rem; 
@@ -156,36 +157,8 @@
 		width: 100%;
 	}
 
-	html {
-		background-color: rgba(2, 48, 119, 0.34);
-	}
-
-
-	/*definindo fonte da pagina */
-	body {
-		font-family: sans-serif;
-	}
-
-	/*definindo bordar superio menu */
-	body {
-		margin: 0px;
-	}
-
-	.defButton {
-		font-size-adjust: 1rem;
-		font-size:  1rem;
-		margin-left:  -0.1rem;
-	}
-
-
-	/*definindo cor fundo borda superior da pagina */
-	
-
-
-	
-
-	/*definindo fonte do titulo h1 */
-	h1 {
+		/*definindo fonte do titulo h1 */
+	.alinharTitulo {
 		font-family: sans-serif;
 		font-weight: normal;	
 		font-weight: bold;
@@ -195,9 +168,32 @@
 
 	}
 
+	.defButton {
+		font-size-adjust: 1rem;
+		font-size:  1rem;
+		margin-left:  -0.1rem;
+	}
+
+
+
+	/*definindo fonte da pagina */
+	.defFont {
+		font-family: sans-serif;
+	}
+
+	/*definindo bordar superio menu */
+	.marginSuperior {
+		margin: 0px;
+	}
+
+
 	form {
 		margin-left: 1rem;
 	}
 
+
+	html {
+		background-color: rgba(2, 48, 119, 0.34);
+	}
 
 }
