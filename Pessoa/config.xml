@@ -25,9 +25,9 @@
         <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 </config-file>
 
-
+<!--
 <icon src="img/logo_seven.png" />
 <plugin name="cordova-plugin-splashscreen" />
 <splash src="splash.png" />
-
+-->
 </widget>
