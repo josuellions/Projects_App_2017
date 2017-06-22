@@ -114,19 +114,20 @@
 	}
 	.nomeEmpresa{
 		color: rgb(255, 255, 255);
-		margin-top: -1.2rem; 
-		margin-left: 3rem;
-		font-size: 0.8rem;
-		font-family:serif;
+		margin-top: -1.7rem; 
+		margin-left: 3.4rem;
+		font-size: 1.3rem;
+		/*font-family:serif;*/
 	}
 
 	.nomeAutor{
 		color: rgb(255, 255, 255);
-		margin-top: -1.7rem; 
-		text-align: right;
+		margin-top: -1.2rem; 
 		margin-right: 0.5rem;
 		font-size: 0.7rem;
-		font-family:serif;
+		/*font-family:serif;*/
+		text-align: right;
+
 
 
 	}
@@ -164,7 +165,7 @@
 		font-weight: bold;
 		font-size: 1.5rem;
 		color: #118593;
-		margin-left:  2rem;
+		margin-left:  3rem;
 
 	}
 

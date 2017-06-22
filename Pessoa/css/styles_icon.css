@@ -5,10 +5,10 @@
 		/*background-repeat: no-repeat;
 		background-size: 15px ;*/
 		border-radius: 50%;
-		margin-left: 0.2em;
-		margin-top: 0.2em;
+		margin-left: 0.2rem;
+		margin-top: 0.2rem;
 		/*height: 15%;*/
-		width: 2.7em;
+		width: 2.7rem;
 	}							
 }
 
@@ -18,10 +18,10 @@
 		/*background-color: rgba(2, 48, 119, 0.64);*/
 		/*background-size: 22px auto;*/
 		border-radius: 50%;
-		margin-left: 0.2em;
-		margin-top: 1.2em;
+		margin-left: 0.2rem;
+		margin-top: 1.2rem;
 		/*height: 15%;*/
-		width: 2.7em;
+		width: 2.7rem;
 	}	
 
 	.icon_rodape {
@@ -29,10 +29,10 @@
 		/*background-color: rgba(2, 48, 119, 0.64);*/
 		/*background-size: 22px auto;*/
 		border-radius: 50%;
-		margin-left: 1em;
-		margin-top: 0em;
+		margin-left: 10rem;
+		margin-top: 0rem;
 		/*height: 15%;*/
-		width: 2.7em;
+		width: 2.7rem;
 	}		
  /*style="background-color: rgba(2, 48, 119, 0.64); width:100%";*/
 
