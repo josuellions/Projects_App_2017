@@ -114,45 +114,45 @@
 	}
 	.nomeEmpresa{
 		color: rgb(255, 255, 255);
-		margin-top: -1.2em; 
-		margin-left: 4.2em;
-		font-size: 0.8em;
+		margin-top: -1.2rem; 
+		margin-left: 3rem;
+		font-size: 0.8rem;
 		font-family:serif;
 	}
 
 	.nomeAutor{
 		color: rgb(255, 255, 255);
-		margin-top: -1.7em; 
+		margin-top: -1.7rem; 
 		text-align: right;
-		margin-right: 0.5em;
-		font-size: 0.7em;
+		margin-right: 0.5rem;
+		font-size: 0.7rem;
 		font-family:serif;
 
 
 	}
 
 	.alinharButton {
-		margin-left:  1.2em;
+		margin-left:  1.2rem;
 	}
 
 	.table_01 {
 		color: blue;
            		font-weight:bold;
-		font-size: 1em;
+		font-size: 1rem;
 	}
 
 	.barraSuperior {
 		background-color: rgba(2, 48, 119, 0.64);
-		margin-top: -1em; 
-		height: 4em;
+		margin-top: -1rem; 
+		height: 4rem;
 		width: 100%;
 	}
 
 	/*definindo cor fundo borda inferior da pagina */
 	.barraInferior {
 		background-color: rgba(2, 48, 119, 0.64);
-		margin-top: -1em; 
-		height: 2.7em;
+		margin-top: -1rem; 
+		height: 2.7rem;
 		width: 100%;
 	}
 
@@ -172,9 +172,9 @@
 	}
 
 	.defButton {
-		font-size-adjust: 1em;
-		font-size:  1em;
-		margin-left:  -0.1em;
+		font-size-adjust: 1rem;
+		font-size:  1rem;
+		margin-left:  -0.1rem;
 	}
 
 
@@ -189,14 +189,14 @@
 		font-family: sans-serif;
 		font-weight: normal;	
 		font-weight: bold;
-		font-size: 1.5em;
+		font-size: 1.5rem;
 		color: #118593;
-		margin-left:  1em;
+		margin-left:  2rem;
 
 	}
 
 	form {
-		margin-left: 1em;
+		margin-left: 1rem;
 	}
 
 
