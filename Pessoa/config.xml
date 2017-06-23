@@ -26,7 +26,7 @@
 </config-file>
 -->
 
-<icon src="img/logo_seven_base.png" />
+<icon src="img/logo_seven.png" />
 <plugin name="cordova-plugin-splashscreen" spec="4.0.3" />
 <splash src="splash.png" />
 
