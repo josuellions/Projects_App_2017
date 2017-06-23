@@ -95,11 +95,12 @@
 
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 480px){
 
 	@-moz-document url-prefix() {
 		  fieldset { display: table-cell; }
 	}
+
 	
 	.fundo {
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b7ea+0,009ec3+100;Blue+3D+%2315 */
@@ -122,7 +123,7 @@
 
 	.nomeAutor{
 		color: rgb(255, 255, 255);
-		margin-top: -1.2rem; 
+		margin-top: -1rem; 
 		margin-right: 0.5rem;
 		font-size: 0.7rem;
 		/*font-family:serif;*/
@@ -144,7 +145,7 @@
 
 	/*definindo cor fundo borda superior da pagina */
 	.barraSuperior {
-		background-color: rgba(2, 48, 119, 0.64);
+		/*background-color: rgba(2, 48, 119, 0.64);*/
 		margin-top: -1rem; 
 		height: 4rem;
 		width: 100%;
@@ -186,15 +187,4 @@
 	.marginSuperior {
 		margin: 0px;
 	}
-
-
-	form {
-		margin-left: 1rem;
-	}
-
-
-	html {
-		background-color: rgba(2, 48, 119, 0.34);
-	}
-
 }
