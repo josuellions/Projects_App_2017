@@ -152,8 +152,8 @@
 
 	/*definindo cor fundo borda inferior da pagina */
 	.barraInferior {
-		background-color: rgba(2, 48, 119, 0.64);
-		margin-top: -1rem; 
+		background: rgba(2, 48, 119, 0.64);
+		/*margin-top: 10%; */
 		height: 2.7rem;
 		width: 100%;
 	}
