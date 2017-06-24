@@ -2,7 +2,8 @@
 
 $("#listar").click(function(){
         var settings = {
-          "url": "http://21.21.21.5:3000/listar/pessoa",
+          // "url": "http://21.21.21.5:3000/listar/pessoa",
+          "url":"http://54.233.161.95:4000/pessoa",
           "method": "GET",
           "headers": {
             "content-type": "application/x-www-form-urlencoded",
