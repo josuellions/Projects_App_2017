@@ -3,9 +3,9 @@ var mysql      = require('mysql');
 var bodyParser  = require('body-parser');
 
 var connection = mysql.createConnection({
-    host     : '54.233.161.95',
+    host     : 'localhost',
     user     : 'root',
-    password : '4linux',
+    password : '123456',
     database : 'Pessoas'
 });
 var app = express();
@@ -84,5 +84,5 @@ app.get('/listar/pessoa', function(req,res){
 
 
 
-//app.listen(3000); local
-app.listen(4000);
+app.listen(3000); local
+//app.listen(4000);
